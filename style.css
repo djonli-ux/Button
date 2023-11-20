@@ -22,3 +22,13 @@ button:hover {
     background-color: black;
     color: white;
 }
+
+button:active {
+    transition-property: background-color;
+    transition-duration: 2s;
+    background-color: blueviolet;
+    color: antiquewhite;
+    border: none;
+    box-shadow: none;
+    transition-timing-function: linear;
+}
