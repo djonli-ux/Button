@@ -1,9 +1,24 @@
+/* body {
+    background-color: black;
+} */
+
 .btn {
-    max-width: 200px;
-    margin: 0 auto;
+    max-width: 500px;
+    max-height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button {
     height: 40px;
     width: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
